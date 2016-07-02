@@ -5,7 +5,7 @@
         jar="Z:\AndroidStudioProjects\JapLearningGame\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         revision="23.0.0"
-        sha1="72f3823ec75b16b078bca67766499d93dd8a586a">
+        sha1="edb146f51f29c8ca33e6521006d3c92cfd4172bb">
         <dex dex="Z:\AndroidStudioProjects\JapLearningGame\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_29f7b357ab3acbec722b6d7f22171d578b64850e\classes.dex" />
     </item>
     <item
@@ -26,7 +26,7 @@
         jar="Z:\AndroidStudioProjects\JapLearningGame\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         revision="23.0.0"
-        sha1="b8f8608c6456181cc29a02c366bf925005ac715f">
+        sha1="11d5ea37917ec5b18036eb605a8b34980510791f">
         <dex dex="Z:\AndroidStudioProjects\JapLearningGame\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_0f45bfa90150c37774af6d82336d7d1b7dd349d0\classes.dex" />
     </item>
     <item
