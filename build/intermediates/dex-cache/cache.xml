@@ -2,46 +2,46 @@
 <items version="2" >
 
     <item
-        jar="D:\Projects\Android\JapLearningGame\JapLearningGame\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="23.0.0"
-        sha1="9fb2efdc57868fd2f4a0f281b4012137d464b2fb">
-        <dex dex="D:\Projects\Android\JapLearningGame\JapLearningGame\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_62d555a99217b868a6bf5a8e0d1a437edb3f4576\classes.dex" />
-    </item>
-    <item
-        jar="D:\Projects\Android\JapLearningGame\JapLearningGame\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.0"
-        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
-        <dex dex="D:\Projects\Android\JapLearningGame\JapLearningGame\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.0.0_d3716be2d6a5c1596740dcaf2485511effb11732\classes.dex" />
-    </item>
-    <item
-        jar="D:\Users\wwarr\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
+        jar="C:\Users\Eric\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
         jumboMode="true"
         revision="23.0.0"
         sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
-        <dex dex="D:\Projects\Android\JapLearningGame\JapLearningGame\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.0.0_c4218dc5139ac0d6ee506a4a40b510b991251a98\classes.dex" />
+        <dex dex="E:\GitHub\JapLearningGame\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.0.0_9597586dee5773380e57c4d4914088ba630d89ea\classes.dex" />
     </item>
     <item
-        jar="D:\Projects\Android\JapLearningGame\JapLearningGame\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\jars\classes.jar"
+        jar="E:\GitHub\JapLearningGame\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\jars\classes.jar"
         jumboMode="true"
         revision="23.0.0"
         sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
-        <dex dex="D:\Projects\Android\JapLearningGame\JapLearningGame\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.0.0_c29e74652a65cc1b224d73581d49918105baa0d0\classes.dex" />
+        <dex dex="E:\GitHub\JapLearningGame\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.0.0_11f17eeb3b15ab8ec2bd92559fe97787fe5d4132\classes.dex" />
     </item>
     <item
-        jar="D:\Projects\Android\JapLearningGame\JapLearningGame\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jar="E:\GitHub\JapLearningGame\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.0"
+        sha1="c69bd96b3636cdbd960305337173f349e9a5857e">
+        <dex dex="E:\GitHub\JapLearningGame\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_fcc9b258f5fa8ef2cd09660e92105565faee09a6\classes.dex" />
+    </item>
+    <item
+        jar="E:\GitHub\JapLearningGame\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.0"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="E:\GitHub\JapLearningGame\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.0.0_3d497306a89a02220af09e3682d9c02934c8918a\classes.dex" />
+    </item>
+    <item
+        jar="E:\GitHub\JapLearningGame\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.0"
+        sha1="83f9961242c9bcf43138a051ca350c8c4900c353">
+        <dex dex="E:\GitHub\JapLearningGame\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_00a73ca75df7c312cc02558f3d2bd8a3c4250d84\classes.dex" />
+    </item>
+    <item
+        jar="E:\GitHub\JapLearningGame\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
         jumboMode="true"
         revision="23.0.0"
         sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
-        <dex dex="D:\Projects\Android\JapLearningGame\JapLearningGame\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.0_2c2379a1050056b93a4943d3efdc9961bccd3cb8\classes.dex" />
-    </item>
-    <item
-        jar="D:\Projects\Android\JapLearningGame\JapLearningGame\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        revision="23.0.0"
-        sha1="b2caf3b9d42408ecd0449c81575e8b10a423dc5f">
-        <dex dex="D:\Projects\Android\JapLearningGame\JapLearningGame\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_31836dce88b1daff0ec1da1a1ee56177cc49505f\classes.dex" />
+        <dex dex="E:\GitHub\JapLearningGame\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.0_3f48d1b99180f83c8d9088aa263ef8c3c3facc2f\classes.dex" />
     </item>
 
 </items>

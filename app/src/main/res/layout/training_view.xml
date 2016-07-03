@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@color/background_color">
 
-</LinearLayout>
+    <ImageButton
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:id="@+id/img_btn_sound"
+        android:background="@drawable/v_btn_sound"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp" />
+
+    <ImageView
+        android:id="@+id/img_top"
+        android:background="@drawable/hiragana02"
+        android:minWidth="500dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:minHeight="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/img_bottom"
+        android:clickable="false"
+        android:background="@drawable/fishies01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:nestedScrollingEnabled="true"
+        android:minWidth="500dp"
+        android:minHeight="300dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
