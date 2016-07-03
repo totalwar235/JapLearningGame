@@ -19,7 +19,7 @@
         jar="E:\GitHub\JapLearningGame\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         revision="23.0.0"
-        sha1="c69bd96b3636cdbd960305337173f349e9a5857e">
+        sha1="c0c0671c1442d0369ce1623fe77d872d6342b638">
         <dex dex="E:\GitHub\JapLearningGame\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_fcc9b258f5fa8ef2cd09660e92105565faee09a6\classes.dex" />
     </item>
     <item
@@ -33,7 +33,7 @@
         jar="E:\GitHub\JapLearningGame\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         revision="23.0.0"
-        sha1="83f9961242c9bcf43138a051ca350c8c4900c353">
+        sha1="864ea06686fd79391e27c3772a7c50a6d69d1596">
         <dex dex="E:\GitHub\JapLearningGame\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_00a73ca75df7c312cc02558f3d2bd8a3c4250d84\classes.dex" />
     </item>
     <item
