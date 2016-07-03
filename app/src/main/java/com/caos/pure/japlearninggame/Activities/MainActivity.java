@@ -17,4 +17,8 @@ public class MainActivity extends AppCompatActivity {
     public void startStudy(View view) {
         setContentView(R.layout.lesson_menu);
     }
+
+    public void setContentView(View view) {
+        setContentView(R.layout.training_view);
+    }
 }
