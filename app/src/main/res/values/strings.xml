@@ -3,4 +3,5 @@
     <string name="play">Play</string>
     <string name="username">Username</string>
     <string name="lesson_1">Lesson 1</string>
+    <string name="title_activity_lesson_menu">LessonMenuActivity</string>
 </resources>
