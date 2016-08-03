@@ -1,7 +1,11 @@
 package com.caos.pure.japlearninggame.Utility;
 
+import android.graphics.drawable.VectorDrawable;
+
 import java.io.File;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 
 /**
@@ -10,20 +14,19 @@ import java.util.Scanner;
  */
 public class loadHiragana {
 
-    public Object hiragana;
-
-
     /* PULLING CHARACTERS INTO A LIST*/
-    private void load() {
-        Scanner s = new Scanner(new File("com/caos/pure/japlearninggame/Utility/basicHiragana"));
+    private List<Hiragana> load() {
+        Hiragana temp = new Hiragana();
 
-        basicHiragana<String> list = new basicHiragana<String>();
+        //Scanner s = new Scanner(new File("com/caos/pure/japlearninggame/Utility/basicHiragana"));
 
-        while (s.hasNext()) list.add(s.next());
-        s.close();
+        List<Hiragana> builder= new ArrayList<Hiragana>();
+
+        temp.setName("a");
+
+        return builder;
     }
 
-    private void printest(){
-        System.out.println(Arrays.toString(list.toArray()));
+    private void vectorDrawableState(){
     }
 }
