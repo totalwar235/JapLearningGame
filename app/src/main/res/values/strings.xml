@@ -4,4 +4,9 @@
     <string name="username">Username</string>
     <string name="lesson_1">Lesson 1</string>
     <string name="title_activity_lesson_menu">LessonMenuActivity</string>
+
+    <string name="submit">submit</string>
+    <string name="reset">reset</string>
+    <string name="showResultActivityTop">Do you like this??</string>
+    <string name="drawing">drawing</string>
 </resources>
