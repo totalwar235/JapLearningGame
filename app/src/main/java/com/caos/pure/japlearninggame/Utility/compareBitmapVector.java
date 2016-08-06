@@ -3,7 +3,6 @@ package com.caos.pure.japlearninggame.Utility;
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.VectorDrawable;
-import android.support.annotation.NonNull;
 import android.util.Log;
 
 import java.io.ByteArrayOutputStream;
@@ -14,10 +13,8 @@ import java.io.ByteArrayOutputStream;
  */
 public class compareBitmapVector {
 
-    @NonNull
     private Bitmap drawn;
-    @NonNull
-    private Object hiragana;
+    private Hiragana hiragana;
 
     //will be removed when hiragana object is provided
     private VectorDrawable temp;
@@ -27,7 +24,7 @@ public class compareBitmapVector {
 
     private double savedScore;
 
-    public compareBitmapVector(Bitmap drawn, Object curHiragana) {
+    public compareBitmapVector(Bitmap drawn, Hiragana curHiragana) {
         this.drawn = drawn;
         this.hiragana = curHiragana;
     }
@@ -39,6 +36,9 @@ public class compareBitmapVector {
      * @return the percentage correct of pixels
      */
     public double score(){
+        if(null == drawn || null == hiragana){
+            return 0;
+        }
         int marks = 0;
         int size = drawn.getByteCount();
 
