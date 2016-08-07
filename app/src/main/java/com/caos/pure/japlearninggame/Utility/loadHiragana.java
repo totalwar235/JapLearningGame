@@ -16,11 +16,11 @@ public class loadHiragana {
         ArrayList<Hiragana> temp = new ArrayList<Hiragana>();
 
         //Creates collection
-        temp.add(new Hiragana("a", drawable/hiragana01.xml));
-        temp.add(new Hiragana("i", drawable/hiragana02.xml));
-        temp.add(new Hiragana("u", drawable/hiragana03.xml));
-        temp.add(new Hiragana("o", drawable/hiragana04.xml));
-        temp.add(new Hiragana("e", drawable/hiragana05.xml));
+        temp.add(new Hiragana("a", drawable/hiragana01.xml, 1));
+        temp.add(new Hiragana("i", drawable/hiragana02.xml, 1));
+        temp.add(new Hiragana("u", drawable/hiragana03.xml, 1));
+        temp.add(new Hiragana("o", drawable/hiragana04.xml, 1));
+        temp.add(new Hiragana("e", drawable/hiragana05.xml, 1));
 
         //Prints out collection
         for(int i = 0; i < temp.size(); i++){

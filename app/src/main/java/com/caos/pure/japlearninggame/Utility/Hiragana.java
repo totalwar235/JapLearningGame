@@ -7,23 +7,13 @@ import android.graphics.drawable.VectorDrawable;
  */
 public class Hiragana {
 
-
     private String name;
     private VectorDrawable masterDrawing;
+    private int Family;
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name){
-        return this.name;
-    }
-
-    public VectorDrawable getMasterDrawing() {
-        return masterDrawing;
-    }
-
-    public void setMasterDrawing(VectorDrawable masterDrawing) {
-        this.masterDrawing = masterDrawing;
+    public Hiragana(String name, VectorDrawable, int Family) {
+        this.Name = name;
+        this.VecotrDrawable = masterDrawing;
+        this.Fzamily = Family;
     }
 }
