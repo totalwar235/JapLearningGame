@@ -2,29 +2,30 @@ package com.caos.pure.japlearninggame.Utility;
 
 import android.graphics.drawable.VectorDrawable;
 
-import java.io.File;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
 
 /**
- * Loads hiragana from basicHiragana
+ * Loads Hiragana
  *  Created by Eric on 7/21/2016.
  */
+
 public class loadHiragana {
 
-    /* PULLING CHARACTERS INTO A LIST*/
-    private List<Hiragana> load() {
-        Hiragana temp = new Hiragana();
+    // PULLING CHARACTERS INTO A LIST
+    private void load() {
+        ArrayList<Hiragana> temp = new ArrayList<Hiragana>();
 
-        //Scanner s = new Scanner(new File("com/caos/pure/japlearninggame/Utility/basicHiragana"));
+        //Creates collection
+        temp.add(new Hiragana("a", drawable/hiragana01.xml));
+        temp.add(new Hiragana("i", drawable/hiragana02.xml));
+        temp.add(new Hiragana("u", drawable/hiragana03.xml));
+        temp.add(new Hiragana("o", drawable/hiragana04.xml));
+        temp.add(new Hiragana("e", drawable/hiragana05.xml));
 
-        List<Hiragana> builder= new ArrayList<Hiragana>();
-
-        temp.setName("a");
-
-        return builder;
+        //Prints out collection
+        for(int i = 0; i < temp.size(); i++){
+            System.out.printf("%s\n", temp.get(i))
+        }
     }
 
     private void vectorDrawableState(){

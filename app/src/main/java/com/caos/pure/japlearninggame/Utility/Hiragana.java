@@ -15,8 +15,8 @@ public class Hiragana {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setName(String name){
+        return this.name;
     }
 
     public VectorDrawable getMasterDrawing() {
