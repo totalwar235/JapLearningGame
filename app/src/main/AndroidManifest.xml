@@ -19,7 +19,14 @@
             android:name=".Activities.LessonMenuActivity"
             android:label="@string/title_activity_lesson_menu"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Activities.TrainingActivity"></activity>
+
+        <activity
+            android:name=".Activities.TrainingActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Activities.ShowResultActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>
