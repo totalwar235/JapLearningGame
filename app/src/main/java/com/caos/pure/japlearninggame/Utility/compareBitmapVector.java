@@ -76,6 +76,7 @@ public class compareBitmapVector {
      * @return saves a JPEG byte[] from vectorDrawable
      */
     private void createComparableSavedImage(){
+        this.temp = hiragana.getVector();
         temp.setBounds(drawn.getWidth()/2, drawn.getHeight()/2, drawn.getWidth()/2, drawn.getHeight()/2);
         Bitmap tempBitMap = ((BitmapDrawable)temp.getCurrent()).getBitmap();
         ByteArrayOutputStream stream = new ByteArrayOutputStream();

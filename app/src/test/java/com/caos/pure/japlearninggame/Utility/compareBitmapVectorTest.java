@@ -16,13 +16,13 @@ public class compareBitmapVectorTest {
 
     @Before
     public void initMethod(){
-        testee = new Hiragana();
+        testee = new Hiragana("a", "drawable/hiragana01.xml", 1);
         fakeBit = null;
         tester = new compareBitmapVector(fakeBit,testee);
     }
 
     @Test
     public void noObjects(){
-        assertEquals(tester.score(),0);
+        assertEquals(tester.score(),0.0);
     }
 }

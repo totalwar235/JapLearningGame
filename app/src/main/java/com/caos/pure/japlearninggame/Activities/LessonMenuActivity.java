@@ -20,7 +20,7 @@ public class LessonMenuActivity extends AppCompatActivity {
 
     public void startTraining(View view) {
         Intent training = new Intent(this, TrainingActivity.class);
+        training.putExtra("name","HiraganaNameHere");
         startActivity(training);
-        //setContentView(R.layout.training_view);
     }
 }
