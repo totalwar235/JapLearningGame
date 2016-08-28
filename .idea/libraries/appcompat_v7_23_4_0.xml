@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="appcompat-v7-23.4.0">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+<<<<<<< HEAD:.idea/libraries/appcompat_v7_23_0_0.xml
+      <root url="jar://$USER_HOME$/AppData/Local/Android/android-sdk/extras/android/m2repository/com/android/support/appcompat-v7/23.0.0/appcompat-v7-23.0.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/appcompat-v7/23.0.0/appcompat-v7-23.0.0-sources.jar!/" />
+      <root url="jar://D:/Users/wwarr/AppData/Local/Android/sdk1/extras/android/m2repository/com/android/support/appcompat-v7/23.0.0/appcompat-v7-23.0.0-sources.jar!/" />
+=======
+      <root url="jar://$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/appcompat-v7/23.4.0/appcompat-v7-23.4.0-sources.jar!/" />
+      <root url="jar://D:/Users/wwarr/AppData/Local/Android/sdk1/extras/android/m2repository/com/android/support/appcompat-v7/23.4.0/appcompat-v7-23.4.0-sources.jar!/" />
+>>>>>>> origin/master:.idea/libraries/appcompat_v7_23_4_0.xml
+    </SOURCES>
+  </library>
+</component>
