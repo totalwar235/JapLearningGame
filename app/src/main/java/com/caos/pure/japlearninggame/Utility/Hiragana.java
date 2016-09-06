@@ -15,29 +15,35 @@ public class Hiragana {
 
 
     private String name;
-    private String masterDrawingPath;
-    private VectorDrawable masterDrawing;
+    //private String masterDrawingPath;
+    private int imageId;
+    //private VectorDrawable masterDrawing;
     private int Family;
 
-    public Hiragana(String name, String masterDrawingPath, int Family) {
+    public Hiragana(String name, int imageId, int Family) {
         this.name = name;
-        this.masterDrawingPath = masterDrawingPath;
+        this.imageId = imageId;
+        //this.masterDrawingPath = masterDrawingPath;
         this.Family = Family;
     }
 
-    public void getVector(Context context){
-        Resources res = context.getResources();
-        int resourceId = res.getIdentifier(this.masterDrawingPath, "drawable",
-                context.getPackageName());
-        this.masterDrawing =  (VectorDrawable) res.getDrawable(resourceId,null);
-    }
+//    public void getVector(Context context){
+//        Resources res = context.getResources();
+//        int resourceId = res.getIdentifier(this.masterDrawingPath, "drawable",
+//                context.getPackageName());
+//        this.masterDrawing =  (VectorDrawable) res.getDrawable(resourceId,null);
+//    }
 
-    public VectorDrawable getVector(){
-        return this.masterDrawing;
-    }
+//    public VectorDrawable getVector(){
+//        return this.masterDrawing;
+//    }
 
     public String getName() {
         return name;
+    }
+
+    public int getImageId() {
+        return imageId;
     }
 
     public void setName(String name) {
@@ -51,13 +57,13 @@ public class Hiragana {
     public void setFamily(int family) {
         Family = family;
     }
-    public VectorDrawable getMasterDrawing() {
-        return masterDrawing;
-    }
 
-    public void setMasterDrawing(VectorDrawable masterDrawing) {
-        this.masterDrawing = masterDrawing;
-    }
+//    public VectorDrawable getMasterDrawing() {
+//        return masterDrawing;
+//    }
+//    public void setMasterDrawing(VectorDrawable masterDrawing) {
+//        this.masterDrawing = masterDrawing;
+//    }
 
 
 }
