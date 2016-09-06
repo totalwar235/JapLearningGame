@@ -22,11 +22,11 @@ public class loadHiragana {
 
 
         //Creates collection
-        temp.add(new Hiragana("a", "drawable/hiragana01.xml", 1));
-        temp.add(new Hiragana("i", "drawable/hiragana02.xml", 1));
-        temp.add(new Hiragana("u", "drawable/hiragana03.xml", 1));
-        temp.add(new Hiragana("o", "drawable/hiragana04.xml", 1));
-        temp.add(new Hiragana("e", "drawable/hiragana05.xml", 1));
+        temp.add(new Hiragana("a", R.drawable.hiragana00, 1));
+        temp.add(new Hiragana("ka", R.drawable.hiragana01, 1));
+        temp.add(new Hiragana("sa", R.drawable.hiragana02, 1));
+        temp.add(new Hiragana("ta", R.drawable.hiragana03, 1));
+        temp.add(new Hiragana("na", R.drawable.hiragana04, 1));
 
         //Prints out collection
         for(int i = 0; i < temp.size(); i++){
