@@ -27,13 +27,13 @@ public class TrainingActivity extends AppCompatActivity {
 
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
-            String hiraganaName = extras.getString("name");
+            //for test
+            String hiraganaName = extras.getString("a");
             //The key argument here must match that used in the other activity
 
             //this will get the vector from the res dynamically for the training view
             this.trainer = loadHiragana.select(hiraganaName);
-            trainer.getVector(drawingView.getContext());
-            hiraganaImage.setImageDrawable(trainer.getVector());
+            hiraganaImage.setImageResource(trainer.getImageId());
         }
     }
 
