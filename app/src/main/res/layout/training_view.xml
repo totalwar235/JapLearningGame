@@ -19,7 +19,7 @@
         android:background="@drawable/v_btn_sound" />
 
     <ImageView
-        android:id="@+id/img_top"
+        android:id="@+id/hiraganaImage"
         android:background="@drawable/hiragana02"
         android:minWidth="500dp"
         android:layout_width="150dp"
