@@ -17,7 +17,7 @@ public class Hiragana {
     private String name;
     //private String masterDrawingPath;
     private int imageId;
-    //private VectorDrawable masterDrawing;
+    private VectorDrawable masterDrawing;
     private int Family;
 
     public Hiragana(String name, int imageId, int Family) {
@@ -27,16 +27,13 @@ public class Hiragana {
         this.Family = Family;
     }
 
-//    public void getVector(Context context){
-//        Resources res = context.getResources();
-//        int resourceId = res.getIdentifier(this.masterDrawingPath, "drawable",
-//                context.getPackageName());
-//        this.masterDrawing =  (VectorDrawable) res.getDrawable(resourceId,null);
-//    }
+    public void getVector(Context context){
+        this.masterDrawing =  (VectorDrawable) context.getDrawable(imageId);
+    }
 
-//    public VectorDrawable getVector(){
-//        return this.masterDrawing;
-//    }
+    public VectorDrawable getVector(){
+        return this.masterDrawing;
+    }
 
     public String getName() {
         return name;
@@ -58,12 +55,12 @@ public class Hiragana {
         Family = family;
     }
 
-//    public VectorDrawable getMasterDrawing() {
-//        return masterDrawing;
-//    }
-//    public void setMasterDrawing(VectorDrawable masterDrawing) {
-//        this.masterDrawing = masterDrawing;
-//    }
+    public VectorDrawable getMasterDrawing() {
+        return masterDrawing;
+    }
+    public void setMasterDrawing(VectorDrawable masterDrawing) {
+        this.masterDrawing = masterDrawing;
+    }
 
 
 }
