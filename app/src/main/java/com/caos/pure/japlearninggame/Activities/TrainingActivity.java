@@ -31,8 +31,7 @@ public class TrainingActivity extends AppCompatActivity {
             //The key argument here must match that used in the other activity
 
             //this will get the vector from the res dynamically for the training view
-            //for test, "a" was originally hiraganaName
-            trainer = loadHiragana.select("a");
+            trainer = loadHiragana.select(hiraganaName);
             trainer.getVector(this);
             hiraganaImage.setImageResource(trainer.getImageId());
         }
