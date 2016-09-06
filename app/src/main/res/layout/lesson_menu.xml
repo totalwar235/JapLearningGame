@@ -25,16 +25,41 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView2"
+        android:id="@+id/hiraganaKa"
         android:src="@drawable/v_btn_empty"
-        android:layout_marginTop="31dp"
+        android:layout_marginTop="38dp"
         android:maxWidth="100dp"
         android:maxHeight="100dp"
         android:minHeight="70dp"
         android:minWidth="70dp"
+        android:onClick="startTraining"
         android:layout_below="@+id/lblLesson1"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="59dp"
-        android:onClick="startTraining" />
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hiraganaSa"
+        android:src="@drawable/v_btn_empty"
+        android:maxWidth="100dp"
+        android:maxHeight="100dp"
+        android:minHeight="70dp"
+        android:minWidth="70dp"
+        android:onClick="startTraining"
+        android:layout_alignTop="@+id/hiraganaKa"
+        android:layout_toEndOf="@+id/lblLesson1" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hiraganaA"
+        android:src="@drawable/v_btn_empty"
+        android:maxWidth="100dp"
+        android:maxHeight="100dp"
+        android:minHeight="70dp"
+        android:minWidth="70dp"
+        android:onClick="startTraining"
+        android:layout_alignTop="@+id/hiraganaKa"
+        android:layout_toStartOf="@+id/lblLesson1" />
 
 </RelativeLayout>
