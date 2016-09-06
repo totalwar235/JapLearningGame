@@ -19,8 +19,23 @@ public class LessonMenuActivity extends AppCompatActivity {
     }
 
     public void startTraining(View view) {
+        String hiraganaName;
+        switch (view.getId()) {
+            case R.id.hiraganaA:
+                hiraganaName = new String("a");
+                break;
+            case R.id.hiraganaKa:
+                hiraganaName = new String("ka");
+                break;
+            case R.id.hiraganaSa:
+                hiraganaName = new String("sa");
+                break;
+            default:
+                hiraganaName = new String("a");
+                break;
+        }
         Intent training = new Intent(this, TrainingActivity.class);
-        training.putExtra("name","HiraganaNameHere");
+        training.putExtra("name", hiraganaName);
         startActivity(training);
     }
 }
